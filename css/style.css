@@ -39,6 +39,12 @@ ul {
   list-style: none;
 }
 
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 .container {
   width: 1200px;
   padding-left: 15px;
@@ -109,6 +115,37 @@ ul {
 
 .flex-element:last-child {
   margin-right: 0px;
+}
+.social-lincs .icon {
+}
+
+.icon::before {
+  display: inline-block;
+  content: "";
+  width: 270px;
+  height: 120px;
+  padding-bottom: 30px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #f5f4fa;
+  border-radius: 4px;
+}
+
+.icon-antena::before {
+  background-image: url("../images/icons/antenna.svg");
+}
+
+.icon-clock::before {
+  background-image: url("../images/icons/clock.svg");
+}
+
+.icon-diagrama::before {
+  background-image: url("../images/icons/diagram.svg");
+}
+
+.icon-astronaut::before {
+  background-image: url("../images/icons/astronaut.svg");
 }
 .menu-list {
   display: flex;
@@ -181,11 +218,29 @@ ul {
   margin: auto;
 }
 
+.icon {
+  display: inline-flex;
+}
+
 .page-box {
 }
 .hero {
-  background: #2f303a;
+  max-width: 1600px;
   height: 600px;
+  background-color: #000;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background: rgba(47, 48, 58, 0.4);
+  background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url("../images/shapka.jpg");
+  margin-right: auto;
+  margin-left: auto;
+
   padding: 200px 0px 280px 0px;
 }
 
@@ -244,6 +299,11 @@ ul {
   padding: 0px;
 }
 
+.gallery-item {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
 .gallery-box {
   width: calc((100% - 60px) / 3);
   margin-right: 30px;
@@ -251,7 +311,7 @@ ul {
   border: 1px solid #eeeeee;
   box-sizing: border-box;
 
-  height: 404px;
+  height: auto;
   left: 215px;
   top: 262px;
 }
@@ -330,7 +390,7 @@ ul {
 .signature-box {
   width: calc((100% - 60px) / 3);
   margin-right: 30px;
-  padding-bottom: 50px;
+  padding-bottom: 95px;
 }
 
 .comand-title {
@@ -345,6 +405,9 @@ ul {
   width: calc((100% - 90px) / 4);
   margin-right: 30px;
   background: #ffffff;
+
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 .comand-item {
   font-size: 16px;
