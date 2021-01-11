@@ -116,7 +116,11 @@ img {
 .flex-element:last-child {
   margin-right: 0px;
 }
-.social-lincs .icon {
+.social-lincs {
+}
+.icon-contacs {
+  width: 16px;
+  height: 12px;
 }
 
 .icon::before {
@@ -133,19 +137,19 @@ img {
 }
 
 .icon-antena::before {
-  background-image: url("../images/icons/antenna.svg");
+  background-image: url("./images/icons/antena.svg");
 }
 
 .icon-clock::before {
-  background-image: url("../images/icons/clock.svg");
+  background-image: url("./images/icons/clock.svg");
 }
 
 .icon-diagrama::before {
-  background-image: url("../images/icons/diagram.svg");
+  background-image: url("./images/icons/diagrama.svg");
 }
 
 .icon-astronaut::before {
-  background-image: url("../images/icons/astronaut.svg");
+  background-image: url("./images/icons/astronaut.svg");
 }
 .menu-list {
   display: flex;
