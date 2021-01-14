@@ -110,14 +110,18 @@ img {
 .flex-element {
   display: flex;
   flex-wrap: wrap;
+  margin-top: 95px;
+  margin-bottom: 95px;
   margin-right: 30px;
 }
 
 .flex-element:last-child {
   margin-right: 0px;
 }
+
 .social-lincs {
 }
+
 .icon-contacs {
   width: 16px;
   height: 12px;
@@ -141,7 +145,7 @@ img {
 }
 
 .icon-antena::before {
-  background-image: url("./images/antena1.svg");
+  background-image: url("./images/icons/antena.svg");
 }
 
 .icon-clock::before {
