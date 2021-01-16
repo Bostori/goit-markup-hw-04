@@ -122,42 +122,42 @@ img {
 .social-lincs {
 }
 
+.link-icon {
+  fill: currentColor;
+  vertical-align: middle;
+}
+
 .icon-contacs {
   width: 16px;
   height: 12px;
+  margin-right: 10px;
+}
+
+.icon-contacs:hover,
+.icon-contacs:focus {
+  --color1: #2196f3;
 }
 
 .icon {
-  display: inline-flex;
-}
-
-.icon::before {
-  display: inline-block;
   content: "";
-  width: 270px;
-  height: 120px;
+  width: 65px;
+  height: 70px;
   padding-bottom: 30px;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+}
+
+.icon-box {
+  margin-right: 30px;
+  margin-bottom: 30px;
+  box-sizing: border-box;
+  width: 270px;
+  height: 120px;
+  padding-bottom: 30px;
+  background-size: contain;
   background-color: #f5f4fa;
   border-radius: 4px;
-}
-
-.icon-antena::before {
-  background-image: url("./images/icons/antena.svg");
-}
-
-.icon-clock::before {
-  background-image: url("./images/icons/clock.svg");
-}
-
-.icon-diagrama::before {
-  background-image: url("./images/icons/diagrama.svg");
-}
-
-.icon-astronaut::before {
-  background-image: url("./images/icons/astronaut.svg");
 }
 .menu-list {
   display: flex;
