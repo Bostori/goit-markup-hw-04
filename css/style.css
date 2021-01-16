@@ -122,11 +122,6 @@ img {
 .social-lincs {
 }
 
-.link-icon {
-  fill: currentColor;
-  vertical-align: middle;
-}
-
 .icon-contacs {
   width: 16px;
   height: 12px;
@@ -135,17 +130,18 @@ img {
 
 .icon-contacs:hover,
 .icon-contacs:focus {
-  --color1: #2196f3;
+  --color1: var(--accent-color);
 }
 
+.link-icon {
+  fill: currentColor;
+  vertical-align: middle;
+}
 .icon {
   content: "";
-  width: 65px;
-  height: 70px;
-  padding-bottom: 30px;
-  background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+  justify-content: center;
 }
 
 .icon-box {
