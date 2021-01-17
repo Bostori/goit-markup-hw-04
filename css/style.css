@@ -118,35 +118,41 @@ img {
 .flex-element:last-child {
   margin-right: 0px;
 }
-.social-lincs {
-  display: flex;
-  width: 44px;
-  height: 44px;
-  margin-right: 10px;
-  justify-content: center;
-  background-color: #ffffff;
-}
 
 .social-icons {
   display: flex;
   padding: 0px;
   border: none;
+  margin-bottom: 30px;
+}
+.insta {
+  display: flex;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: green;
+  background-position: center;
+}
+.social-lincs:last-child {
+  margin-right: 0px;
+}
+.social-lincs {
+  display: flex;
+  margin-right: 10px;
+  fill: currentColor;
+  background-position: center;
 }
 
-.insta {
-  padding: 0px;
-  border: none;
-  border-radius: 50%;
-  color: var(--adress-color);
-}
 .social-icons:hover,
 .social-icons:focus {
   --color2: var(--accent-color);
 }
 
 .icon-contacs {
+  display: flex;
   width: 16px;
   height: 12px;
+
   margin-right: 10px;
 }
 
@@ -157,7 +163,6 @@ img {
 
 .link-icon {
   fill: currentColor;
-  vertical-align: middle;
 }
 .icon {
   display: flex;
