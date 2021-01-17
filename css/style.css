@@ -118,8 +118,30 @@ img {
 .flex-element:last-child {
   margin-right: 0px;
 }
-
 .social-lincs {
+  display: flex;
+  width: 44px;
+  height: 44px;
+  margin-right: 10px;
+  justify-content: center;
+  background-color: #ffffff;
+}
+
+.social-icons {
+  display: flex;
+  padding: 0px;
+  border: none;
+}
+
+.insta {
+  padding: 0px;
+  border: none;
+  border-radius: 50%;
+  color: var(--adress-color);
+}
+.social-icons:hover,
+.social-icons:focus {
+  --color2: var(--accent-color);
 }
 
 .icon-contacs {
@@ -157,6 +179,7 @@ img {
   background-color: #f5f4fa;
   border-radius: 4px;
   justify-content: center;
+  object-position: center;
 }
 .menu-list {
   display: flex;

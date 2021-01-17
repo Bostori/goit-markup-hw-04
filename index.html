@@ -14,7 +14,7 @@
 
 <body>
     <header class="page-header">
-        <div class="container flexbox">
+        <div class="container ">
             <nav class="navigation">
                 <a href="./index.html" class="logo"> <span>Web</span>Studio</a>
                 <ul class="list menu-list">
@@ -51,7 +51,7 @@
                 <h2 class="text">Наши преимущества</h2>
                 <ul class="list menu-list">
                     <li class="flex-element ">
-                        <div class="icon-box ">
+                        <div class="icon-box">
                         <svg class="icon">
                             <use href="./images/icons/spite2.svg#icon-antena"  width="65"  height="70">
                             </use>
@@ -152,10 +152,22 @@
                         <h3 class="comand-title">Иван Николаев</h3>
                         <p lang="en" class="comand-item">UI Designer</p>
                         <ul>
-                            <li><a href="#" aria-label="ссылка Instagram"></a></li>
-                            <li><a href="#" aria-label="ссылка Twitter"></a></li>
-                            <li><a href="#" aria-label="ссылка Facebook"></a></li>
-                            <li><a href="#" aria-label="ссылка Linkedin"></a></li>
+                            <div class="social-icons">
+                            <li ><a href="#" aria-label="ссылка Instagram" class="insta">
+                                <svg class="social-lincs">
+                                <use href="./images/icons/spite.svg#icon-instagram" width="20" height="20"></use>
+                            </svg></a></li>
+                            <li><a href="#" aria-label="ссылка Twitter"></a><svg class="social-lincs">
+                                <use href="./images/icons/spite.svg#icon-twitter" width="20" height="20"></use>
+                            </svg>
+                            </li>
+                            <li><a href="#" aria-label="ссылка Facebook"><svg class="social-lincs">
+                                <use href="./images/icons/spite.svg#icon-facebook" width="20" height="20"></use>
+                            </svg></a></li>
+                            <li><a href="#" aria-label="ссылка Linkedin"></a>
+                            <svg class="social-lincs">
+                                <use href="./images/icons/spite.svg#icon-linkedin" width="20" height="20"></use>
+                            </svg></li></div>
                         </ul>
                     </li>
                 </ul>
@@ -212,9 +224,13 @@
         </div>
         <div class="visually-hidden">
             <b class="signature">Присоединяйтесь</b>
-            <ul class="list">
+            <ul>
                 <li>
-                    <a href="#" target="_blank" rel="noopener noreferrer" aria-label="ссылка на Инстаграм">Instagram</a>
+                    <a href="#" target="_blank" rel="noopener noreferrer" aria-label="ссылка на Инстаграм">
+                        <svg>
+                            <use href="./images/icons/spite.svg#icon-instagram"></use>
+                        </svg>
+                        Instagram</a>
                 </li>
                 <li>
                     <a href="#" target="_blank" rel="noopener noreferrer" aria-label="ссылка на Твиттер">Twitter</a>
