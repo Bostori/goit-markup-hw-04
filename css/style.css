@@ -107,22 +107,29 @@ img {
   margin-right: auto;
 }
 
-.flex-element {
+.icons {
   display: flex;
-  flex-wrap: wrap;
   margin-top: 95px;
-  margin-bottom: 95px;
+  margin-bottom: 30px;
   margin-right: 30px;
   height: 120px;
   background-size: contain;
   background-color: #f5f4fa;
   border-radius: 4px;
   justify-content: center;
-  }
+  align-items: center;
 }
 
-.flex-element:last-child {
+.icons:last-child {
   margin-right: 0px;
+}
+
+.icon {
+  content: "";
+  width: 65px;
+  height: 70px;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .social {
@@ -185,17 +192,6 @@ img {
 
 .link-icon {
   fill: currentColor;
-}
-
-
-.icon {
-  content: "";
-  width: 65px;
-  height: 70px;
-  align-items: center;
-  justify-content: center;
-  background-repeat: no-repeat;
-  background-position: center;
 }
 
 .menu-list {
