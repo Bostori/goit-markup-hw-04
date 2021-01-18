@@ -120,27 +120,38 @@ img {
 }
 
 .social-icons {
-  display: flex;
+  display: inline-flex;
   padding: 0px;
   border: none;
+  margin-right: 10px;
   margin-bottom: 30px;
+  align-items: center;
+  justify-content: center;
 }
 .insta {
-  display: flex;
+  display: inline-block;
   width: 44px;
   height: 44px;
+  padding: auto;
+  border: none;
   border-radius: 50%;
+  align-items: center;
+  justify-content: center;
   background-color: green;
-  background-position: center;
 }
-.social-lincs:last-child {
+.social-icons:last-child {
   margin-right: 0px;
 }
 .social-lincs {
   display: flex;
-  margin-right: 10px;
+  width: 20px;
+  height: 20px;
+  padding: 0px;
+  margin: 0px;
+  border: none;
   fill: currentColor;
-  background-position: center;
+  align-items: center;
+  justify-content: center;
 }
 
 .social-icons:hover,
@@ -164,13 +175,6 @@ img {
 .link-icon {
   fill: currentColor;
 }
-.icon {
-  display: flex;
-  content: "";
-  align-items: center;
-  background-repeat: no-repeat;
-  background-position: center;
-}
 
 .icon-box {
   display: flex;
@@ -186,6 +190,14 @@ img {
   justify-content: center;
   object-position: center;
 }
+.icon {
+  display: flex;
+  content: "";
+  align-items: center;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 .menu-list {
   display: flex;
 }
