@@ -47,13 +47,16 @@ img {
 }
 
 .container {
-  display: flex;
-  align-items: center;
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin-right: auto;
   margin-left: auto;
+}
+
+.page-header .container {
+  display: flex;
+  align-items: center;
 }
 
 .logo {
